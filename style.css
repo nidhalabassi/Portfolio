@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,300&display=swap');
+.wall {
+    position: absolute;
+    height: 650px;
+    width: 100%;
+}
+
+.wall img {
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+
+.logo {
+    position: absolute;
+}
+
+.logo img {
+    transform: scale(0.7);
+}
+
+.logo img:hover {
+    transform: scale(0.8) translateY(-8px);
+}
+
+.list {
+    position: absolute;
+    left: 70%;
+    top: 5%;
+}
+
+.list ul li {
+    display: inline;
+}
+
+.list ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.list ul li a:hover {
+    letter-spacing: 3px;
+    background-color: grey;
+    color: black;
+    border-radius: 1px solid black;
+    transition: 0.4s;
+}
+
+.code {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+.code img {
+    transform: scale(0.9);
+}
+
+.code a img:hover {
+    transform: scale(0.9) translateY(-8px);
+    transition: 0.4s;
+}
+
+.design {
+    position: absolute;
+    left: 70%;
+    top: 23%;
+}
+
+.design img {
+    transform: scale(0.9);
+}
+
+.design img:hover {
+    transform: scale(0.9) translateY(-8px);
+    transition: 0.4s;
+}
+
+.pde {
+    position: absolute;
+    left: 71%;
+    top: 40%;
+}
+
+.pde p {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 27px;
+}
+
+.pcd {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+
+.pcd p {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+}
+
+.social {
+    position: absolute;
+    top: 85%;
+    left: 70%;
+}
+
+.social img {
+    transform: scale(0.5);
+}
+
+.social img:hover {
+    transform: scale(0.5) translateY(-15px);
+    transition: 0.4s;
+}
+
+.btn {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+
+.btn h2 a {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 20px;
+    background: grey;
+    color: black;
+    border: 2px solid grey;
+    border-radius: 30px;
+}
+
+.btn h2 a:hover {
+    letter-spacing: 4px;
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
